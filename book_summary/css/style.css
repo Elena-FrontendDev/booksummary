@@ -1,0 +1,137 @@
+@import url('./normalize.css');
+/* @import url('./glide.core.min.css');
+@import url('./glide.theme.min.css'); */
+
+
+
+.body {
+    max-width: 1200px;
+    background-color: #c3cfe2;
+    margin: 0 auto;
+}
+
+.book {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 40px auto;
+}
+
+.book__cover {
+    border-style: none;
+    width: 400px;
+    height: 650px;
+    margin: 40px auto;
+    border-radius: 30px;
+}
+
+.books-galery-title {
+    width: 90%;
+    font-size: 36px;
+    margin: 40px auto 60px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.main-carousel {
+    /* height: 560px; */
+    margin: 0 auto 80px;
+  }
+
+  .carousel-cell {
+    background-color: #c3cfe2;
+    margin: 30px 30px 0 0;
+    width: 300px;
+    height: 580px;
+    counter-increment: carousel__cell; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.carousel-image {
+    width: 100%;
+    /* height: 100%; */
+    height: 450px;
+    border-radius: 20px;
+}
+
+.carousel-subtitle {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.book__description {
+    width: 90%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active {
+    display: flex;
+}
+
+.book__title {
+    font-size: 32px;
+}
+
+.book__epub {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 60px;
+}
+
+.epub__subtitle {
+    font-size: 32px;
+}
+
+.book__download {
+    width: 334px;
+    height: 95px;
+    background-color: #44d7a8;
+    border-radius: 50px;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    display: flex;
+}
+
+.download__link {
+    text-decoration: none;
+    color: #000;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* cursor: pointer; */
+}
+
+.book__summary {
+    display: none;
+    flex-direction: column;
+    background-color: gainsboro;
+    width: 90%;
+    margin: 0 auto 30px auto;
+    border-radius: 30px;
+}
+
+.summary__copy {
+    border-style: none;
+    height: 80px;
+    width: 80px;
+    margin: 20px 20px 20px auto;
+}
+
+.summary__text {
+    font-size: 28px;
+    margin: 0 auto 120px auto;
+    width: 80%;
+}
